@@ -4,8 +4,8 @@ version = "0.1.0"
 description = "PCAP test tool for rusticata parsers"
 license = "LGPL-2.1+"
 keywords = ["Rusticata","pcap","protocol","parser","nom"]
-homepage = "https://github.com/rusticata/pcap-parse"
-repository = "https://github.com/rusticata/pcap-parse.git"
+homepage = "https://github.com/copslock/pcap-parse"
+repository = "https://github.com/copslock/pcap-parse.git"
 authors = ["Pierre Chifflier <chifflier@wzdftpd.net>"]
 
 [dependencies]
@@ -17,8 +17,8 @@ env_logger = "*"
 
 [dependencies.rusticata]
 # path = "../rusticata"
-git = "https://github.com/rusticata/rusticata.git"
+git = "https://github.com/copslock/rusticata.git"
 
 [dependencies.pcap-parser]
 # path = "../pcap-parser"
-git = "https://github.com/rusticata/pcap-parser.git"
+git = "https://github.com/copslock/pcap-parser.git"
